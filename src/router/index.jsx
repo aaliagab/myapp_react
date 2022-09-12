@@ -3,10 +3,7 @@ import TestimonioPage from "../pages/TestimonioPage";
 
 const Router = () =>{
     return(
-        <BrowserRouter>
-            <a href='/testimonios'>Testimonios</a>
-            <br/>
-            <a href='/contador-clicks'>Contador de Clicks</a>
+        <BrowserRouter>            
             <Routes>
                 <Route path="/testimonios" element={<TestimonioPage/>}/>
             </Routes>
